@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		072EF7D71E711E3700AD64E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7D61E711E3700AD64E3 /* AppDelegate.swift */; };
+		072EF7D91E711E3700AD64E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7D81E711E3700AD64E3 /* ViewController.swift */; };
+		072EF7DC1E711E3700AD64E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072EF7DA1E711E3700AD64E3 /* Main.storyboard */; };
+		072EF7DE1E711E3700AD64E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 072EF7DD1E711E3700AD64E3 /* Assets.xcassets */; };
+		072EF7E11E711E3700AD64E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072EF7DF1E711E3700AD64E3 /* LaunchScreen.storyboard */; };
+		072EF7EC1E711E3700AD64E3 /* Go_BoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7EB1E711E3700AD64E3 /* Go_BoomTests.swift */; };
+		072EF7F71E711E3700AD64E3 /* Go_BoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7F61E711E3700AD64E3 /* Go_BoomUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		072EF7E81E711E3700AD64E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072EF7CB1E711E3600AD64E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072EF7D21E711E3700AD64E3;
+			remoteInfo = "Go Boom";
+		};
+		072EF7F31E711E3700AD64E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 072EF7CB1E711E3600AD64E3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 072EF7D21E711E3700AD64E3;
+			remoteInfo = "Go Boom";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072EF7D31E711E3700AD64E3 /* Go Boom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Boom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072EF7D61E711E3700AD64E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		072EF7D81E711E3700AD64E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		072EF7DB1E711E3700AD64E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		072EF7DD1E711E3700AD64E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		072EF7E01E711E3700AD64E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		072EF7E21E711E3700AD64E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072EF7E71E711E3700AD64E3 /* Go BoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go BoomTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072EF7EB1E711E3700AD64E3 /* Go_BoomTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_BoomTests.swift; sourceTree = "<group>"; };
+		072EF7ED1E711E3700AD64E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		072EF7F21E711E3700AD64E3 /* Go BoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go BoomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		072EF7F61E711E3700AD64E3 /* Go_BoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_BoomUITests.swift; sourceTree = "<group>"; };
+		072EF7F81E711E3700AD64E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		072EF7D01E711E3700AD64E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072EF7E41E711E3700AD64E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072EF7EF1E711E3700AD64E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		072EF7CA1E711E3600AD64E3 = {
+			isa = PBXGroup;
+			children = (
+				072EF7D51E711E3700AD64E3 /* Go Boom */,
+				072EF7EA1E711E3700AD64E3 /* Go BoomTests */,
+				072EF7F51E711E3700AD64E3 /* Go BoomUITests */,
+				072EF7D41E711E3700AD64E3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		072EF7D41E711E3700AD64E3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				072EF7D31E711E3700AD64E3 /* Go Boom.app */,
+				072EF7E71E711E3700AD64E3 /* Go BoomTests.xctest */,
+				072EF7F21E711E3700AD64E3 /* Go BoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		072EF7D51E711E3700AD64E3 /* Go Boom */ = {
+			isa = PBXGroup;
+			children = (
+				072EF7D61E711E3700AD64E3 /* AppDelegate.swift */,
+				072EF7D81E711E3700AD64E3 /* ViewController.swift */,
+				072EF7DA1E711E3700AD64E3 /* Main.storyboard */,
+				072EF7DD1E711E3700AD64E3 /* Assets.xcassets */,
+				072EF7DF1E711E3700AD64E3 /* LaunchScreen.storyboard */,
+				072EF7E21E711E3700AD64E3 /* Info.plist */,
+			);
+			path = "Go Boom";
+			sourceTree = "<group>";
+		};
+		072EF7EA1E711E3700AD64E3 /* Go BoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				072EF7EB1E711E3700AD64E3 /* Go_BoomTests.swift */,
+				072EF7ED1E711E3700AD64E3 /* Info.plist */,
+			);
+			path = "Go BoomTests";
+			sourceTree = "<group>";
+		};
+		072EF7F51E711E3700AD64E3 /* Go BoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				072EF7F61E711E3700AD64E3 /* Go_BoomUITests.swift */,
+				072EF7F81E711E3700AD64E3 /* Info.plist */,
+			);
+			path = "Go BoomUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		072EF7D21E711E3700AD64E3 /* Go Boom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072EF7FB1E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go Boom" */;
+			buildPhases = (
+				072EF7CF1E711E3700AD64E3 /* Sources */,
+				072EF7D01E711E3700AD64E3 /* Frameworks */,
+				072EF7D11E711E3700AD64E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Go Boom";
+			productName = "Go Boom";
+			productReference = 072EF7D31E711E3700AD64E3 /* Go Boom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		072EF7E61E711E3700AD64E3 /* Go BoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072EF7FE1E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go BoomTests" */;
+			buildPhases = (
+				072EF7E31E711E3700AD64E3 /* Sources */,
+				072EF7E41E711E3700AD64E3 /* Frameworks */,
+				072EF7E51E711E3700AD64E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072EF7E91E711E3700AD64E3 /* PBXTargetDependency */,
+			);
+			name = "Go BoomTests";
+			productName = "Go BoomTests";
+			productReference = 072EF7E71E711E3700AD64E3 /* Go BoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		072EF7F11E711E3700AD64E3 /* Go BoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 072EF8011E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go BoomUITests" */;
+			buildPhases = (
+				072EF7EE1E711E3700AD64E3 /* Sources */,
+				072EF7EF1E711E3700AD64E3 /* Frameworks */,
+				072EF7F01E711E3700AD64E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				072EF7F41E711E3700AD64E3 /* PBXTargetDependency */,
+			);
+			name = "Go BoomUITests";
+			productName = "Go BoomUITests";
+			productReference = 072EF7F21E711E3700AD64E3 /* Go BoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		072EF7CB1E711E3600AD64E3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Joe Mellin";
+				TargetAttributes = {
+					072EF7D21E711E3700AD64E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4YFYEM4A79;
+						ProvisioningStyle = Automatic;
+					};
+					072EF7E61E711E3700AD64E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4YFYEM4A79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 072EF7D21E711E3700AD64E3;
+					};
+					072EF7F11E711E3700AD64E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4YFYEM4A79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 072EF7D21E711E3700AD64E3;
+					};
+				};
+			};
+			buildConfigurationList = 072EF7CE1E711E3600AD64E3 /* Build configuration list for PBXProject "Go Boom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 072EF7CA1E711E3600AD64E3;
+			productRefGroup = 072EF7D41E711E3700AD64E3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				072EF7D21E711E3700AD64E3 /* Go Boom */,
+				072EF7E61E711E3700AD64E3 /* Go BoomTests */,
+				072EF7F11E711E3700AD64E3 /* Go BoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		072EF7D11E711E3700AD64E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072EF7E11E711E3700AD64E3 /* LaunchScreen.storyboard in Resources */,
+				072EF7DE1E711E3700AD64E3 /* Assets.xcassets in Resources */,
+				072EF7DC1E711E3700AD64E3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072EF7E51E711E3700AD64E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072EF7F01E711E3700AD64E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		072EF7CF1E711E3700AD64E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072EF7D91E711E3700AD64E3 /* ViewController.swift in Sources */,
+				072EF7D71E711E3700AD64E3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072EF7E31E711E3700AD64E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072EF7EC1E711E3700AD64E3 /* Go_BoomTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		072EF7EE1E711E3700AD64E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				072EF7F71E711E3700AD64E3 /* Go_BoomUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		072EF7E91E711E3700AD64E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072EF7D21E711E3700AD64E3 /* Go Boom */;
+			targetProxy = 072EF7E81E711E3700AD64E3 /* PBXContainerItemProxy */;
+		};
+		072EF7F41E711E3700AD64E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 072EF7D21E711E3700AD64E3 /* Go Boom */;
+			targetProxy = 072EF7F31E711E3700AD64E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		072EF7DA1E711E3700AD64E3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072EF7DB1E711E3700AD64E3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		072EF7DF1E711E3700AD64E3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				072EF7E01E711E3700AD64E3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		072EF7F91E711E3700AD64E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		072EF7FA1E711E3700AD64E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		072EF7FC1E711E3700AD64E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4YFYEM4A79;
+				INFOPLIST_FILE = "Go Boom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boom.Go-Boom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		072EF7FD1E711E3700AD64E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4YFYEM4A79;
+				INFOPLIST_FILE = "Go Boom/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boom.Go-Boom";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		072EF7FF1E711E3700AD64E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4YFYEM4A79;
+				INFOPLIST_FILE = "Go BoomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boom.Go-BoomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Boom.app/Go Boom";
+			};
+			name = Debug;
+		};
+		072EF8001E711E3700AD64E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4YFYEM4A79;
+				INFOPLIST_FILE = "Go BoomTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boom.Go-BoomTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Go Boom.app/Go Boom";
+			};
+			name = Release;
+		};
+		072EF8021E711E3700AD64E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4YFYEM4A79;
+				INFOPLIST_FILE = "Go BoomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boom.Go-BoomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Go Boom";
+			};
+			name = Debug;
+		};
+		072EF8031E711E3700AD64E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4YFYEM4A79;
+				INFOPLIST_FILE = "Go BoomUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "boom.Go-BoomUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Go Boom";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		072EF7CE1E711E3600AD64E3 /* Build configuration list for PBXProject "Go Boom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072EF7F91E711E3700AD64E3 /* Debug */,
+				072EF7FA1E711E3700AD64E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		072EF7FB1E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go Boom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072EF7FC1E711E3700AD64E3 /* Debug */,
+				072EF7FD1E711E3700AD64E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		072EF7FE1E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go BoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072EF7FF1E711E3700AD64E3 /* Debug */,
+				072EF8001E711E3700AD64E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		072EF8011E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go BoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				072EF8021E711E3700AD64E3 /* Debug */,
+				072EF8031E711E3700AD64E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 072EF7CB1E711E3600AD64E3 /* Project object */;
+}
