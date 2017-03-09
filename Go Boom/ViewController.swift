@@ -13,9 +13,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-      //  func crash(_ sender: UIButton) {
-       //     print("hello")
-       // }
+
         // Do any additional setup after loading the view, typically from a nib.
         
     }
@@ -25,6 +23,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+   // @IBAction func crash1(_ sender: UIButton) {
+   // }
+   // @IBAction func crash2(_ sender: UIButton) {
+   // }
 
 }
 
