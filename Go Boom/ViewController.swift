@@ -13,9 +13,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        func crash(_ sender: UIButton) {
-            print("hello")
-        }
+      //  func crash(_ sender: UIButton) {
+       //     print("hello")
+       // }
         // Do any additional setup after loading the view, typically from a nib.
         
     }
