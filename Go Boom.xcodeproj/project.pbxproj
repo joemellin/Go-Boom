@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07265AD61EA182D100A531C0 /* MobileCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07265AD51EA182D100A531C0 /* MobileCenterDistribute.framework */; };
+		07265AD81EA182EE00A531C0 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07265AD71EA182EE00A531C0 /* MobileCenter.framework */; };
 		072EF7D71E711E3700AD64E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7D61E711E3700AD64E3 /* AppDelegate.swift */; };
 		072EF7D91E711E3700AD64E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7D81E711E3700AD64E3 /* ViewController.swift */; };
 		072EF7DC1E711E3700AD64E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072EF7DA1E711E3700AD64E3 /* Main.storyboard */; };
@@ -14,7 +16,6 @@
 		072EF7E11E711E3700AD64E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 072EF7DF1E711E3700AD64E3 /* LaunchScreen.storyboard */; };
 		072EF7EC1E711E3700AD64E3 /* Go_BoomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7EB1E711E3700AD64E3 /* Go_BoomTests.swift */; };
 		072EF7F71E711E3700AD64E3 /* Go_BoomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072EF7F61E711E3700AD64E3 /* Go_BoomUITests.swift */; };
-		072EF8081E712C9000AD64E3 /* MobileCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072EF8051E712C8F00AD64E3 /* MobileCenter.framework */; };
 		072EF8091E712C9000AD64E3 /* MobileCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072EF8061E712C8F00AD64E3 /* MobileCenterAnalytics.framework */; };
 		072EF80A1E712C9000AD64E3 /* MobileCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 072EF8071E712C8F00AD64E3 /* MobileCenterCrashes.framework */; };
 /* End PBXBuildFile section */
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07265AD51EA182D100A531C0 /* MobileCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenterDistribute.framework; sourceTree = "<group>"; };
+		07265AD71EA182EE00A531C0 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MobileCenter.framework; sourceTree = "<group>"; };
 		072EF7D31E711E3700AD64E3 /* Go Boom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Go Boom.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		072EF7D61E711E3700AD64E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		072EF7D81E711E3700AD64E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +53,6 @@
 		072EF7F21E711E3700AD64E3 /* Go BoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Go BoomUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		072EF7F61E711E3700AD64E3 /* Go_BoomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Go_BoomUITests.swift; sourceTree = "<group>"; };
 		072EF7F81E711E3700AD64E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		072EF8051E712C8F00AD64E3 /* MobileCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenter.framework; path = Vendor/MobileCenter.framework; sourceTree = "<group>"; };
 		072EF8061E712C8F00AD64E3 /* MobileCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterAnalytics.framework; path = Vendor/MobileCenterAnalytics.framework; sourceTree = "<group>"; };
 		072EF8071E712C8F00AD64E3 /* MobileCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCenterCrashes.framework; path = Vendor/MobileCenterCrashes.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,9 +62,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07265AD61EA182D100A531C0 /* MobileCenterDistribute.framework in Frameworks */,
 				072EF8091E712C9000AD64E3 /* MobileCenterAnalytics.framework in Frameworks */,
+				07265AD81EA182EE00A531C0 /* MobileCenter.framework in Frameworks */,
 				072EF80A1E712C9000AD64E3 /* MobileCenterCrashes.framework in Frameworks */,
-				072EF8081E712C9000AD64E3 /* MobileCenter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +141,8 @@
 		072EF8041E712BBE00AD64E3 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
-				072EF8051E712C8F00AD64E3 /* MobileCenter.framework */,
+				07265AD71EA182EE00A531C0 /* MobileCenter.framework */,
+				07265AD51EA182D100A531C0 /* MobileCenterDistribute.framework */,
 				072EF8061E712C8F00AD64E3 /* MobileCenterAnalytics.framework */,
 				072EF8071E712C8F00AD64E3 /* MobileCenterCrashes.framework */,
 			);
@@ -439,6 +443,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Vendor",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Go Boom/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -458,6 +463,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Vendor",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = "Go Boom/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

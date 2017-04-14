@@ -8,8 +8,7 @@
 
 import UIKit
 import MobileCenter
-import MobileCenterAnalytics
-import MobileCenterCrashes
+import MobileCenterDistribute
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -20,9 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         MSMobileCenter.start("6571b83d-3a86-4dcc-bb39-0360af8b1e16", withServices:[
-            MSAnalytics.self,
-            MSCrashes.self
+            MSDistribute.self
             ])
+        return true
+    }
+    
+    func application(_ application: UIApplication, open url: URL, sourceApplication: String?, annotation: Any) -> Bool {
+        // Pass the URL to MSDistribute.
+        MSDistribute.open(url as URL!)
         return true
     }
 
