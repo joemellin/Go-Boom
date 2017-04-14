@@ -361,7 +361,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -546,6 +546,7 @@
 				072EF7FD1E711E3700AD64E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072EF7FE1E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go BoomTests" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +555,7 @@
 				072EF8001E711E3700AD64E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		072EF8011E711E3700AD64E3 /* Build configuration list for PBXNativeTarget "Go BoomUITests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +564,7 @@
 				072EF8031E711E3700AD64E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
